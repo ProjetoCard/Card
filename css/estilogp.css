@@ -1,0 +1,78 @@
+/* O seletor "body" pega a página inteira. */
+body {
+background: #334e8f; /* cor de fundo */
+color: #E4E9F0; /* cor do texto */
+}
+
+body {
+font-family: system-ui, sans-serif; /* tira a serifa */
+margin: 0;
+padding: 26px 16px;
+}
+h1 {
+color: #ff4800;
+font-size: 32px;
+margin: 0 0 4px;
+}
+/* "header p" = o parágrafo que está DENTRO do header. Só ele. */
+header p {
+color: #fbff00;
+margin: 0 0 22px;
+}
+
+main {
+max-width: 620px; /* o card não passa de 620 pixels de largura */
+margin: 0 auto; /* e fica centralizado na janela */
+background: #17253f;
+padding: 26px; /* espaço DENTRO da caixa */
+}
+h2 {
+color: #7FD1B9;
+font-size: 18px;
+margin: 20px 0 8px;
+}
+p {
+line-height: 1.6; /* espaço entre as linhas do texto */
+}
+
+table {
+width: 100%;
+border-collapse: collapse; /* junta as bordas das células em uma só */
+}
+caption {
+text-align: left;
+color: #97A3B4;
+font-size: 13px;
+padding-bottom: 8px;
+}
+/* th e td de uma vez: os dois recebem o mesmo tratamento */
+th, td {
+text-align: left;
+padding: 10px 0;
+border-bottom: 1px solid #a82688;
+}
+th {
+color: #97A3B4;
+width: 40%;
+}
+figure { margin: 0; }
+img {
+width: 100%; /* a imagem ocupa a largura do card */
+border-radius: 10px;
+}
+figcaption {
+color: #97A3B4;
+font-size: 13px;
+padding-top: 8px;
+}
+
+main {
+border-radius: 16px; /* canto arredondado */
+box-shadow: 0 14px 100px rgba(0,0,0,.45); /* sombra embaixo */
+}
+footer p {
+text-align: center;
+color: #6B7686;
+font-size: 13px;
+margin-top: 22px;
+}
